@@ -1,0 +1,44 @@
+section{
+    margin: 20px;
+}
+.logo{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+.header{
+    background-color: whitesmoke;
+display: flex;
+justify-content: center;
+padding: 50px;
+}
+.nav> .nav1{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+li{
+    padding: 30px;
+    background-color: whitesmoke;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+.about{
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 20px;
+height: 500px;
+}
+.about1{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quick{
+    
+}
