@@ -5,7 +5,7 @@ section{
     background-color: whitesmoke;
     display: flex;
     justify-content: center;
-    padding: 30px;
+    padding: 20px;
     margin-bottom: 20px;
 }
 .header{
@@ -13,9 +13,14 @@ section{
 display: flex;
 justify-content: center;
 padding: 50px;
+margin-bottom: 20px;
+}
+.nav{
+    margin-bottom: 20px;
 }
 .nav> .nav1{
-    
+    margin: 0; 
+    padding: 0;  
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 20px;
@@ -31,7 +36,8 @@ li{
 display: grid;
 grid-template-columns: 1fr 1fr;
 gap: 20px;
-height: 500px;
+height: 400px;
+margin-bottom: 20px;
 }
 .about1{
     background-color: whitesmoke;
@@ -40,5 +46,21 @@ height: 500px;
     align-items: center;
 }
 .quick{
-    
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 10px;
+}
+.quick> p{
+    background-color: whitesmoke;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.site{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    margin-top: 20px;
 }
